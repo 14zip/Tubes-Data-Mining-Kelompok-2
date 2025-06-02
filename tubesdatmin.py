@@ -25,7 +25,7 @@ if model and scaler and X_train_cols:
     age = st.sidebar.slider("Age", 10, 100, 20)
     academic_pressure = st.sidebar.slider("Academic Pressure", 0, 100, 50)
     work_pressure = st.sidebar.slider("Work Pressure", 0, 100, 50)
-    cgpa = st.sidebar.slider("CGPA", 0.0, 4.0, 3.0)
+    cgpa = st.sidebar.slider("IPK", 0.0, 4.0, 3.0)
     financial_stress = st.sidebar.slider("Financial Stress", 0, 100, 50)
     suicidal_thoughts = st.sidebar.selectbox("Have you ever had suicidal thoughts?", ["Yes", "No"])
     family_history = st.sidebar.selectbox("Family History of Mental Illness", ["Yes", "No"])
