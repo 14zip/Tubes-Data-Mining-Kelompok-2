@@ -29,10 +29,10 @@ if model and scaler and X_train_cols:
     financial_stress = st.sidebar.slider("Financial Stress", 0, 100, 50)
     suicidal_thoughts = st.sidebar.selectbox("Have you ever had suicidal thoughts?", ["Yes", "No"])
     family_history = st.sidebar.selectbox("Family History of Mental Illness", ["Yes", "No"])
-    city = st.sidebar.selectbox("City", ["City A", "City B", "City C"])
+    city = st.sidebar.selectbox("City", ["Bandung", "Jakarta", "Others"])
     profession = st.sidebar.selectbox("Profession", ["Student", "Employed", "Other"])
-    degree = st.sidebar.selectbox("Degree", ["Undergraduate", "Graduate", "PhD"])
-    sleep_duration = st.sidebar.selectbox("Sleep Duration", ["Short", "Normal", "Long"])
+    degree = st.sidebar.selectbox("Degree", ["Diploma", "Sarjana", "Master"])
+    sleep_duration = st.sidebar.selectbox("Sleep Duration", ["1 - 3 Hours", "4 - 7 hours", " > 8 hours"])
     dietary_habits = st.sidebar.selectbox("Dietary Habits", ["Healthy", "Unhealthy"])
 
     input_data = {
