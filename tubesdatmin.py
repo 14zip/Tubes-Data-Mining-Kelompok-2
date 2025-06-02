@@ -22,7 +22,7 @@ if model and scaler and X_train_cols:
     st.sidebar.header("Input Data Mahasiswa")
 
     gender = st.sidebar.selectbox("Gender", ["Male", "Female"])
-    age = st.sidebar.slider("Age", 10, 100, 20)
+    age = st.sidebar.slider("Age", 15, 50, 20)
     academic_pressure = st.sidebar.slider("Academic Pressure", 0, 100, 50)
     work_pressure = st.sidebar.slider("Work Pressure", 0, 100, 50)
     cgpa = st.sidebar.slider("IPK", 0.0, 4.0, 3.0)
